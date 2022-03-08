@@ -61,3 +61,35 @@ p, i {
 	font-size: 4vmin;
 }
 
+button {
+	font-size: 5vmin;
+	padding: 1vmin;
+	background: var(--c2);
+	opacity: 40%;
+	color: var(--c1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1vmin;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	margin: 5vmin;
+}
+
+button i {
+	font-size: inherit;
+	padding: 0;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	color: inherit;
+	margin-right: 1vmin;
+}
+
+button:hover {
+	opacity: 80%;
+}
+
