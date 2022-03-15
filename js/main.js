@@ -7,7 +7,7 @@ function redirect(page) {
 function download(version) {
 	fetch(`https://api.synt.ml/download?version=${version}`).then(request => request.text()).then(link => {
 		if (link !== 'ERROR') {
-			window.location.open(link);
+			window.open(link);
 		} else {
 			alert('ERROR!');
 		}
@@ -15,7 +15,7 @@ function download(version) {
 		console.log("FAILED TO CONNECT: API.SYNT.ML (CONNECT SITE)");
 		fetch(`https://synt-api.attaditya.repl.co/download?version=${version}`).then(request => request.text()).then(link => {
 			if (link !== 'ERROR') {
-				window.location.open(link);
+				window.open(link);
 			} else {
 				alert('ERROR!');
 			}
