@@ -12,6 +12,7 @@
 	text-align: center;
 	display: inline-flex;
 	transform: translate(-50%);
+	height: auto;
 }
 
 .user-actions button {
