@@ -1,0 +1,19 @@
+/* banner */
+
+.banner {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.banner h1 {
+	font-size: 20vmax;
+	letter-spacing: 10vmax;
+	margin-left: 10vmax;
+}
+
