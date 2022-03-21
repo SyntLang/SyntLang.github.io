@@ -1,0 +1,95 @@
+/* Main */
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+
+:root {
+	--c1: #2a4455;
+	--c2: #ffffff;
+	--f1: 'Cousine', sans-serif;
+}
+
+* {
+	font-family: var(--f1);
+	background-color: transparent;
+	color: var(--c2);
+	transition: 0.3s;
+	user-select: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* background */
+.bg {
+	background-color: var(--c1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 20vmin;
+}
+
+h2 {
+	font-size: 16vmin;
+}
+
+h3 {
+	font-size: 12vmin;
+}
+
+h4 {
+	font-size: 8vmin;
+}
+
+h5 {
+	font-size: 6vmin;
+}
+
+h6 {
+	font-size: 4vmin;
+}
+
+p, i {
+	font-size: 4vmin;
+}
+
+button {
+	font-size: 5vmin;
+	padding: 1vmin;
+	background: var(--c2);
+	opacity: 40%;
+	color: var(--c1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1vmin;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	margin: 5vmin;
+}
+
+button i {
+	font-size: inherit;
+	padding: 0;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	color: inherit;
+	margin-right: 1vmin;
+}
+
+button:hover {
+	opacity: 80%;
+}
+

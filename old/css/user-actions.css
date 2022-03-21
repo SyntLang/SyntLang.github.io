@@ -1,0 +1,49 @@
+/* user actions */
+
+.user-actions {
+	position: fixed;
+	bottom: 10vmin;
+	left: 50%;
+	background-color: var(--c1);
+	transition: 0.3s;
+	user-select: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline-flex;
+	transform: translate(-50%);
+	height: auto;
+}
+
+.user-actions button {
+	font-size: 5vmin;
+	padding: 1vmin;
+	background: var(--c2);
+	opacity: 40%;
+	color: var(--c1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1vmin;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	margin: 5vmin;
+}
+
+.user-actions button i {
+	font-size: inherit;
+	padding: 0;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	color: inherit;
+	margin-right: 1vmin;
+}
+
+.user-actions button:hover {
+	opacity: 80%;
+}
+

@@ -1,0 +1,43 @@
+/* utilities */
+
+.utilities-box {
+	position: fixed;
+	overflow: hidden;
+	top: 1vmin;
+	right: 1vmin;
+	width: 5vmin;
+	height: 5vmin;
+	opacity: 20%;
+	padding: 1vmin;
+	border-radius: 1vmin;
+	background: var(--c2);
+}
+
+.utilities-box i {
+	font-size: 2vmin;
+	padding: 1vmin;
+	background: var(--c1);
+	opacity: 60%;
+	color: var(--c2);
+	width: 3vmin;
+	height: 3vmin;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1vmin;
+	cursor: pointer;
+	margin-bottom: 1vmin;
+}
+
+.utilities-box i:last-child {
+	margin-bottom: 0;
+}
+
+.utilities-box:hover {
+	opacity: 50%;
+}
+
+.utilities-box i:hover {
+	opacity: 80%;
+}
+

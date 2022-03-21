@@ -1,1 +1,1 @@
-![Synt](/resources/img/Banner.png)
+![Synt](/Banner.png)
