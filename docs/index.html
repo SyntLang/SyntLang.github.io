@@ -1,0 +1,509 @@
+<html>
+	<head>
+		<title>Synt - Docs</title>
+		<link rel="icon" href="Logo.png">
+		
+		<meta name="description" content="Documentation for Synt">
+		<meta property="og:url" content="https://docs.synt.ml/">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Synt - Docs">
+		<meta property="og:description" content="Documentation for Synt">
+		<meta property="og:image" content="/Banner.png">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:domain" content="">
+		<meta property="twitter:url" content="https://docs.synt.ml/">
+		<meta name="twitter:title" content="Synt - Docs">
+		<meta name="twitter:description" content="Documentation for Synt">
+		<meta name="twitter:image" content="/Banner.png">
+		
+		<link rel="stylesheet" href="style.css">
+		
+		<script src="https://kit.fontawesome.com/a63f2fde7e.js" crossorigin="anonymous"></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="topics-bar" id="topics-bar">
+				<center onclick="view_topic('top');">
+					<img src="Logo.png" alt="Synt Docs Logo" width="80%"><br>
+					<sd>Synt Docs</sd>
+				</center>
+
+				<tb onclick="view_topic('general-synt');">General</tb>
+				
+				<t1 onclick="view_topic('what-is-synt');">What is Synt?</t1>
+				<t1 onclick="view_topic('examples');">Examples</t1>
+				
+				<t1 onclick="view_topic('installation');">Installation</t1>
+				<t2 onclick="view_topic('download-synt');">Download</t2>
+				<t2 onclick="view_topic('move-synt');">Move to Path</t2>
+				<t2 onclick="view_topic('add-synt-to-path');">Add to Path</t2>
+
+				<t1 onclick="view_topic('modes');">Modes</t1>
+				<t2 onclick="view_topic('file-mode');">File</t2>
+				<t2 onclick="view_topic('interactive-mode');">Interactive</t2>
+				<t2 onclick="view_topic('compile-mode');">Compile</t2>
+				<t2 onclick="view_topic('quit-mode');">Quit</t2>
+				<t2 onclick="view_topic('spyc-mode');">SPyC</t2>
+				<t2 onclick="view_topic('spyc-run-mode');">SPyC Run</t2>
+				
+				<tb onclick="view_topic('learn-synt');">Learn Synt</tb>
+
+				<t1 onclick="view_topic('what-is-console');">Console Basics</t1>
+				<t1 onclick="view_topic('code-parsing');">Code Iterations</t1>
+
+				<t1 onclick="view_topic('commenting-algs');">Commenting</t1>
+				<t2 onclick="view_topic('alg-comment');">General</t2>
+				<t2 onclick="view_topic('query-comment');">Info</t2>
+				<t2 onclick="view_topic('ai-comment');">Command</t2>
+
+				<t1 new onclick="view_topic('basic-algs');">Basic</t1>
+				<t2 onclick="view_topic('version-alg');">Version</t2>
+				<t2 onclick="view_topic('end-alg');">End</t2>
+				<t2 onclick="view_topic('output-alg');">Output</t2>
+				<t2 onclick="view_topic('input-alg');">Input</t2>
+
+				<t1 new onclick="view_topic('debug-algs');">Debug</t1>
+				<t1 new onclick="view_topic('var-algs');">Variable</t1>
+				<t1 new onclick="view_topic('opr-algs');">Operator</t1>
+				<t1 new onclick="view_topic('logic-algs');">Logic</t1>
+				<t1 new onclick="view_topic('loop-algs');">Loop</t1>
+				<t1 new onclick="view_topic('ex-res-algs');">Modules</t1>
+				<t1 new onclick="view_topic('itr-algs');">Iterable</t1>
+				<t1 new onclick="view_topic('time-algs');">Time</t1>
+				<t1 new onclick="view_topic('console-algs');">Console</t1>
+				<t1 new onclick="view_topic('file-algs');">File</t1>
+			</div>
+			<div class="content" id="content">
+				<div id="top" class="banner">
+					<h1 id="title">
+						<img src="Logo.png" alt="Synt">
+						Synt Docs
+					</h1>
+				</div>
+
+				<h2>
+					<br>
+					These docs are still in development and are incomplete for now!
+					Deadline is hopefully Mid June 2022.
+				</h2>
+
+				<h1 id="general-synt">
+					General
+				</h1>
+
+				<h2 id="what-is-synt">
+					What is Synt?
+				</h2>
+				<p>
+					Synt is a <highlight>programming language</highlight> and it is very suitable for beginners.
+					Code is <highlight>easy</highlight> and really <highlight>simple</highlight>.
+					<highlight>Syntax</highlight> is <highlight>user friendly</highlight> are really <highlight>readable</highlight> for person who can read and understand English.
+					<br><br>
+					Synt is <highlight>free</highlight> and <highlight>open source</highlight>.
+					It is made with <highlight>Python</highlight>.
+					Synt is the <highlight>next gen</highlight> programming language.
+					It is made so that updates are <highlight>easy</highlight> and <highlight>fast</highlight>.
+					Synt is made to make <highlight>software and game development</highlight> <highlight>easier</highlight> and <highlight>faster</highlight>.
+					<br><br>
+					For the history of Synt, it was initiated by <a href="https://attaditya.is-a.dev/"><highlight>Attachment Aditya</highlight></a> in year <highlight>2020</highlight>.
+					It was initially expected to be worked for about <highlight>1-2 Months</highlight>.
+					Later as time went by, it was expanded to be a larger project.
+					It will most probably be getting updated and expanded in the future.
+				</p>
+				
+				<h2 id="examples">
+					Examples
+				</h2>
+				<h3>
+					Hello Synt
+				</h3>
+				<p>
+					<p class="code">
+						output "Hello Synt!"
+					</p class="code">
+				</p>
+				<h3>
+					Create Variables
+				</h3>
+				<p>
+					<p class="code">
+						var number my_num1 0
+					</p class="code">
+				</p>
+				<h3>
+					Add Numbers
+				</h3>
+				<p>
+					<p class="code">
+						var number my_sum 0
+						add my_sum 10 20 30 40 50 60
+					</p class="code">
+				</p>
+				<h3>
+					Variable Referencing
+				</h3>
+				<p>
+					<p class="code">
+						var text name "Synt"
+						output "Hello #name#!!! Welcome Back!!!"
+					</p class="code">
+				</p>
+				
+				<h2 id="installation">
+					Installation
+				</h2>
+				<p>
+					Synt is created in a way so that it can be run in any systems.
+					However, the major focus is for <highlight>Windows</highlight>.
+					For other system Synt has <highlight>Python Source Code</highlight> which can be run to use Synt.
+					In future, there might be versions of Synt targetted for other platforms.
+					<br><br>
+					This section is focussing to install synt on <highlight>Windows</highlight>.
+					<br><br>
+					For other platforms you need to have <highlight>Python</highlight> installed on your system.
+					After that install the <highlight>Source Code</highlight> of Synt from <highlight>GitHub</highlight>.
+					Run the <highlight>Python Source Code</highlight> using <highlight>Python</highlight> to use Synt.
+				</p>
+
+				<h3 id="download-synt">
+					Download Synt
+				</h3>
+				<p>
+					Download <highlight>Synt Executable</highlight> for you through <a href="https://synt.ml/#downloads"><highlight>Official Synt Site</highlight></a>.
+				</p>
+
+				<h3 id="move-synt">
+					Move to Path
+				</h3>
+				<p>
+					Installing Synt just means moving it to the <highlight>Path</highlight> you want it to be.
+					It can be done manually.
+					This allows Synt to be used portably.
+					<br><br>
+					Generally, for <highlight>Windows</highlight>, it is recommended for <highlight>Apps</highlight> to be installed in <highlight>Programs Files</highlight>.
+					Although this is not mandatory, it is on the user where to install it.
+					<br><br>
+					<p class="code">
+						Suggested Synt Folder: <highlight>C:\Program Files\Synt</highlight>
+					</p>
+				</p>
+
+				<h3 id="add-synt-to-path">
+					Add to Path
+				</h3>
+				<p>
+					Although you might have installed synt in the <highlight>Path</highlight> you want it to be in, but you still need to access it.
+					To access synt, you may need to use the <highlight>Path</highlight> again and again to refer to the <highlight>Synt Executable</highlight> that will run Synt Code.
+					<br><br>
+					A simple solution is to add the <highlight>Path</highlight> to your <highlight>Path</highlight> in your <highlight>Environment Variables</highlight>.
+					This might sound complicated, but it isn't really that hard.
+					<br><br>
+					First of all, copy the <highlight>Folder Path</highlight> you want to add to your <highlight>Path</highlight> to your <highlight>Environment Variables</highlight>.
+					Now, open your <highlight>Environment Variables</highlight>.
+					To do so, start <highlight>Run</highlight>(<highlight>Windows Key</highlight> + <highlight>R</highlight>).
+					In run, type <highlight>sysdm.cpl</highlight>.
+					Once this causes the <highlight>System Properties</highlight> to open, click on <highlight>Advanced</highlight>.
+					Now, click on <highlight>Environment Variables</highlight>.
+					Under <highlight>System Variables</highlight>, click on <highlight>Path</highlight> and click on <highlight>Edit</highlight>.
+					Now, click on <highlight>New</highlight> and then paste the <highlight>Folder Path</highlight>.
+					Finally, click on <highlight>Apply</highlight> and <highlight>OK</highlight> on all windows till all <highlight>System Properties</highlight> windows are closed.
+					<br><br>
+					Synt is now globally added to <highlight>Path</highlight>. You can just refer <highlight>Synt</highlight> to run Synt.
+				</p>
+				
+				<h2 id="modes">
+					Modes
+				</h2>
+				<p>
+					On using Synt without console arguments, it asks you for modes.
+					Synt has two major running modes.
+					<highlight>File Mode</highlight> and <highlight>Interactive Mode</highlight>.
+					Apart from modes that can run code, there are more modes.
+					<highlight>Quit Mode</highlight> and <highlight>Compile Mode</highlight> are two of them.
+					Synt also allows code to convert into SPyC (SyntPythonCompiler) that can be run with <highlight>Python</highlight>.
+				</p>
+				<h3 id="file-mode">
+					File Mode
+				</h3>
+				<p>
+					To run an existing code using <highlight>File Mode</highlight> is suggested.
+					This mode will ask you file path.
+					It is the complete file location to your code file.
+					Once code completed it closes.
+					<br><br>
+					This mode can be also accesed from directly passing <highlight>source code file path</highlight> in command line arguments.
+					The mode key is <highlight>*f</highlight> and <highlight>*file</highlight>.
+					<br><br>
+					<p class="code">
+						synt *f
+					</p>
+					<p class="code">
+						synt *file
+					</p>
+					<p class="code">
+						synt "main.synt"
+					</p>
+				</p>
+				<h3 id="interactive-mode">
+					Interactive Mode
+				</h3>
+				<p>
+					<highlight>Interactive Mode</highlight> or <highlight>Synteractive</highlight> is a good mode to learn and test commands.
+					This mode allows you to type and run code at same time.
+					As it runs at same time, it doesn't close until closing through code or force close.
+					<br><br>
+					The mode key is <highlight>*i</highlight> and <highlight>*interactive</highlight>.
+					<br><br>
+					<p class="code">
+						synt *i
+					</p>
+					<p class="code">
+						synt *interactive
+					</p>
+				</p>
+				<h3 id="compile-mode">
+					Compile Mode
+				</h3>
+				<p>
+					<highlight>Compile Mode</highlight> is a <highlight>command line arguments</highlight> based mode.
+					This mode <highlight>compiles</highlight> from <highlight>synt code</highlight> to an <highlight>distributable</highlight> application.
+					<br><br>
+					The mode key is <highlight>*c</highlight> and <highlight>*compile</highlight>.
+					<br><br>
+					<p class="code">
+						synt *c "main.synt"
+					</p>
+					<p class="code">
+						synt *compile "main.synt"
+					</p>
+				</p>
+				<h3 id="quit-mode">
+					Quit Mode
+				</h3>
+				<p>
+					<highlight>Quit Mode</highlight> just closes Synt.
+					<br><br>
+					The mode key is <highlight>*q</highlight> and <highlight>*quit</highlight>.
+					<br><br>
+					<p class="code">
+						synt *q
+					</p>
+					<p class="code">
+						synt *quit
+					</p>
+				</p>
+				<h3 id="spyc-mode">
+					SPyC Mode
+				</h3>
+				<p>
+					<highlight>SPyC Mode</highlight> is a <highlight>command line arguments</highlight> based mode.
+					This mode compiles from <highlight>synt code</highlight> to <highlight>Python Source Code</highlight>.
+					<br><br>
+					The mode key is <highlight>*spyc</highlight>.
+					<br><br>
+					<p class="code">
+						synt *spyc "main.synt"
+					</p>
+				</p>
+				<h3 id="spyc-run-mode">
+					SPyC Run Mode
+				</h3>
+				<p>
+					<highlight>SPyC Run Mode</highlight> is a <highlight>command line arguments</highlight> based mode.
+					This mode directly exports and runs the <highlight>SPyC Output</highlight>.
+					<br><br>
+					The mode key is <highlight>**spyc</highlight>.
+					<br><br>
+					<p class="code">
+						synt **spyc "main.synt"
+					</p>
+				</p>
+				
+				<h1 id="learn-synt">
+					Learn Synt
+				</h1>
+
+				<h2 id="what-is-console">
+					What is Console?
+				</h2>
+				<p>
+					The console is the main window that opens when Synt or Synt Code is run.
+					It is the place where you can type and run code in Interactive Mode.
+					In file mode you can use console to see the outputs of code and give code inputs.
+				</p>
+
+				<h2 id="code-parsing">
+					How Synt Reads Code?
+				</h2>
+				<p>
+					First, obviously, Synt gets the code it needs to run.
+					This code can also be called as <highlight>source code</highlight>.
+					<br><br>
+					Then, Synt breaks the code into <highlight>blocks</highlight>.
+					The <highlight>blocks</highlight> into <highlight>tokens</highlight>.
+					<br><br>
+					Synt uses these blocks and tokens to recognize and execute corresponding commands and code.
+					Synt runs <highlight>block after block</highlight>.
+				</p>
+
+				<h2 id="commenting-algs">
+					Commenting in Synt
+				</h2>
+				<p>
+					There are three <highlight>Commenting Character</highlight> options in synt.
+					The functioning and working of all three is same.
+					All of them will be ignored during execution.
+					These are classified on the basis of organizing and how they are supposed to be used.
+				</p>
+
+				<h3 id="alg-comment">
+					General Comments
+				</h3>
+				<p>
+					Such comment is an algorithm in synt that will be ignored.
+					It has no use except for being used as placeholders and of course to comment in between code.
+					<br><br>
+					<p class="code">
+						comment This is a comment. This will be ignored in execution.
+					</p>
+					<p class="code">
+						$ This is a comment. This will be ignored in execution.
+					</p>
+				</p>
+
+				<h3 id="query-comment">
+					Info Comments
+				</h3>
+				<p>
+					This type of comment is used to <highlight>organize</highlight> code.
+					This should be generally used to convey what the following code is about and what it should do.
+					<br><br>
+					<p class="code">
+						? This is a query comment. This will be ignored in execution.
+					</p>
+				</p>
+
+				<h3 id="ai-comment">
+					Command Comments
+				</h3>
+				<p>
+					This type of comment is used when using an <highlight>AI</highlight> to write or analyze code.
+					Its content will depend on the <highlight>AI's</highlight> and <highlight>custom mods</highlight> that are used.
+					<br><br>
+					<p class="code">
+						> This is an AI command comment. If any AI or mod installed, this might do something.
+						> It won't do anything in execution.
+					</p>
+				</p>
+
+				<h2 id="basic-algs">
+					Basic Algorithms of Synt
+				</h2>
+				<p>
+					There are a few basic functions or so called <highlight>Algorithms</highlight> in synt.
+					These include basic <highlight>input</highlight> and <highlight>output</highlight> functions, as well as <highlight>version</highlight> function and <highlight>end</highlight> function.
+					These are the most primitive functions in synt.
+				</p>
+
+				<h3 id="version-alg">
+					Version
+				</h3>
+				<p>
+					This function just outputs the <highlight>version</highlight> of synt in console.
+					<br><br>
+					<p class="code">
+						version
+					</p>
+				</p>
+
+				<h3 id="end-alg">
+					End
+				</h3>
+				<p>
+					This function just ends/pauses the execution of synt.
+					<br><br>
+					<p class="code">
+						end
+					</p>
+				</p>
+
+				<h3 id="output-alg">
+					Output
+				</h3>
+				<p>
+					This function outputs the <highlight>arguments</highlight> passed into the function to the console.
+					<br><br>
+					<p class="code">
+						output "Hello Synt!"
+					</p>
+				</p>
+
+				<h3 id="input-alg">
+					Input
+				</h3>
+				<p>
+					This function is slightly more complex than the <highlight>output</highlight> function.
+					The first argument it takes is the <highlight>Output Variable</highlight>.
+					This is the variable that the <highlight>Input</highlight> will be stored in.
+					The second argument is the <highlight>Input Prompt</highlight>.
+					This is basically the text that should output before user is asked to input something.
+					<br><br>
+					<p class="code">
+						input input_var "Enter your input:"
+					</p>
+				</p>
+
+				<h2 id="debug-algs">
+					Debugging in Synt
+				</h2>
+
+				<h2 id="var-algs">
+					Variables and Functions
+				</h2>
+
+				<h2 id="opr-algs">
+					Synt Mathematical Operations
+				</h2>
+
+				<h2 id="logic-algs">
+					Conditional Programming with Synt
+				</h2>
+
+				<h2 id="loop-algs">
+					Repitition and Looping Code
+				</h2>
+
+				<h2 id="ex-res-algs">
+					Modules and External Resources
+				</h2>
+
+				<h2 id="itr-algs">
+					Functions for Collections and Other Iterables
+				</h2>
+
+				<h2 id="time-algs">
+					Synt Time and Ticking
+				</h2>
+
+				<h2 id="console-algs">
+					Handling Running Console with Synt
+				</h2>
+
+				<h2 id="file-algs">
+					Reading and Writing Files
+				</h2>
+
+				<div class="eof"></div>
+
+				<div class="footer">
+					<a href="https://synt.ml">
+						<img src="Synt.png" alt="Synt"> Synt
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="background"></div>
+	</body>
+</html>
