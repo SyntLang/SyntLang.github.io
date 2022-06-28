@@ -434,3 +434,26 @@ i, i:hover {
 	transition: 0.1s;
 }
 
+.supporters-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.supporter {
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+	width: 12rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.sup-img img {
+	height: 10rem;
+	width: 10rem;
+	border-radius: 1rem;
+	margin: 0.5rem;
+}
+
