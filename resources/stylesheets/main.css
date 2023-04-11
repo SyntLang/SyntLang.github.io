@@ -1,0 +1,23 @@
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
+@import url("/resources/bulma/extensions/timeline.css");
+
+.alg {
+	color: #569CD6;
+}
+
+.loop {
+	color: #C586C0;
+}
+
+.str {
+	color: #CE9178;
+}
+
+.num {
+	color: #B5CEA8;
+}
+
+.var {
+	color: #9CDCFE;
+}
+
