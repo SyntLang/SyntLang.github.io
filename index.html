@@ -1,159 +1,265 @@
-<html>
-	<head>
-		<title>Synt</title>
-		<link rel="icon" href="Synt.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<meta name="description" content="Synt Programming Language - Simple! Easy! Fun!">
-		<meta property="og:url" content="https://synt.ml/">
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="Synt">
-		<meta property="og:description" content="Synt Programming Language - Simple! Easy! Fun!">
-		<meta property="og:image" content="/Banner.png">
-		<meta name="twitter:card" content="summary_large_image">
-		<meta property="twitter:domain" content="">
-		<meta property="twitter:url" content="https://synt.ml/">
-		<meta name="twitter:title" content="Synt">
-		<meta name="twitter:description" content="Synt Programming Language - Simple! Easy! Fun!">
-		<meta name="twitter:image" content="/Banner.png">
+	<title>Synt</title>
 
-		<link rel="stylesheet" href="style.css">
+	<meta name="description" content="Synt Programming Language - Simple! Easy! Fun!">
+	<meta property="og:url" content="https://synt.ml/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Synt">
+	<meta property="og:description" content="Synt Programming Language - Simple! Easy! Fun!">
+	<meta property="og:image" content="/resources/banner.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="">
+	<meta property="twitter:url" content="https://synt.ml/">
+	<meta name="twitter:title" content="Synt">
+	<meta name="twitter:description" content="Synt Programming Language - Simple! Easy! Fun!">
+	<meta name="twitter:image" content="/resources/banner.png">
 
-		<script src="https://kit.fontawesome.com/a63f2fde7e.js" crossorigin="anonymous"></script>
-		<script src="script.js" defer></script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-				<div class="banner">
-					<img src="Synt.png" alt="Synt">
-					<h1>
-						Synt
-					</h1>
-				</div>
-				<div class="navigation">
-					<div class="card-coll">
-						<div class="card">
-							<div class="card-icon">
-								<i class="fa-solid fa-store"></i>
-							</div>
-							<div class="card-title">
-								Get Synt
-							</div>
-							<div class="card-desc">
-								Download Synt for your device.
-							</div>
-							<div class="card-button">
-								<a href="https://download.synt.ml/">
-									<button>
-										<i class="fa-solid fa-download"></i>
-										Download
-									</button>
-								</a>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-icon">
-								<i class="fa-solid fa-graduation-cap"></i>
-							</div>
-							<div class="card-title">
-								Learn Synt
-							</div>
-							<div class="card-desc">
-								Learn how to code in Synt.
-							</div>
-							<div class="card-button">
-								<a href="https://docs.synt.ml/">
-									<button>
-										<i class="fa-solid fa-book"></i>
-										Docs Page
-									</button>
-								</a>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-icon">
-								<i class="fa-solid fa-money-bill-1-wave"></i>
-							</div>
-							<div class="card-title">
-								Fund Synt
-							</div>
-							<div class="card-desc">
-								Support Synt for faster development.
-							</div>
-							<div class="card-button">
-								<a href="https://funds.synt.ml/">
-									<button>
-										<i class="fa-brands fa-patreon"></i>
-										Donate
-									</button>
-								</a>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-icon">
-								<i class="fa-solid fa-file-code"></i>
-							</div>
-							<div class="card-title">
-								Get Source
-							</div>
-							<div class="card-desc">
-								Source Code for Synt.
-							</div>
-							<div class="card-button">
-								<a href="https://github.synt.ml/">
-									<button>
-										<i class="fa-brands fa-github"></i>
-										GitHub
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="about">
-					<h1>
-						What is Synt?
-					</h1>
-					<p>
-						Synt is a programming language and it is very suitable for beginners.
-						Code is easy and really simple.
-						Syntax is user friendly are really readable for person who can read and understand English.
-						<br><br>
-						Synt is free and open source.
-						It is made with Python.
-						<br><br>
-						Synt is the next gen programming language.
-						It is made so that updates are easy and fast.
-						Synt is made to make software and game development easier and faster.
-					</p>
-				</div>
-				<div class="social-media">
-					<h1>
-						Follow Us
-					</h1>
-					<div class="social-media-icons">
-						<a href="https://github.synt.ml/">
-							<i class="fa-brands fa-github"></i>
-						</a>
-						<a href="https://discord.gg/nfM9fKEVPW/">
-							<i class="fa-brands fa-discord"></i>
-						</a>
-						<a href="https://funds.synt.ml/">
-							<i class="fa-brands fa-patreon"></i>
-						</a>
-					</div>
-				</div>
-				<div class="supporters">
-					<h1>
-						Our Supporters
-					</h1>
-					<div class="supporters-collection" id="supporters"></div>
-				</div>
+	<link rel="stylesheet" href="/resources/stylesheets/main.css">
+	<link rel="stylesheet" href="/resources/stylesheets/colors.css">
+	<link rel="shortcut icon" href="/resources/images/Synt.ico" type="image/x-icon">
 
-				<div class="eof"></div>
+	<script src="https://kit.fontawesome.com/a63f2fde7e.js" crossorigin="anonymous"></script>
+</head>
+<body class="has-navbar-fixed">
+	<nav class="navbar is-fixed-top box p-0 is-radiusless" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<div class="navbar-item">
+				<a href="/">
+					<button class="button is-primary is-inverted">
+						<img draggable="false" src="/resources/images/Synt.png">
+						<span class="ml-2 is-uppercase has-text-weight-bold is-family-code">
+							Synt
+						</span>
+					</button>
+				</a>
 			</div>
+
+			<a role="button" class="navbar-burger" aria-label="menu" onclick="document.getElementById('navbar-menu').classList.toggle('is-active');">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
 		</div>
 
-		<div class="background"></div>
-	</body>
+		<div class="navbar-menu" id="navbar-menu">
+			<div class="navbar-start">
+				<a class="navbar-item" href="https://docs.synt.ml/">
+					<i class="fa-solid fa-book"></i>
+					<span class="ml-2">
+						Docs
+					</span>
+				</a>
+				<a class="navbar-item" href="https://community.synt.ml/">
+					<i class="fa-solid fa-users"></i>
+					<span class="ml-2">
+						Community
+					</span>
+				</a>
+			</div>
+
+			<div class="navbar-end">
+				<div class="navbar-item">
+					<div class="buttons">
+						<a href="https://download.synt.ml/">
+							<button class="button is-primary">
+								<i class="fa-solid fa-download"></i>
+								<span class="ml-2">
+									Get Now
+								</span>
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section id="landing" class="section">
+		<div class="columns">
+			<div class="column is-half">
+				<div class="section" style="display: grid; place-items: center; height: 100%;">
+					<div class="content is-large">
+						<h1 class="title has-text-primary" style="font-size: 6rem;">
+							Synt
+						</h1>
+						<p class="subtitle">
+							A feature rich programming language for beginners and professionals!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="column is-half is-hidden-mobile">
+				<img draggable="false" src="/resources/images/Synt.png">
+			</div>
+		</div>
+	</section>
+
+	<section id="examples" class="section has-background-primary" style="transform: skewY(15deg);">
+		<div class="content" style="transform: skewY(-15deg);">
+			<h1 class="title has-text-white is-size-1">
+				Examples
+			</h1>
+			<div id="ex-hello" class="section">
+				<h2 class="title has-text-white">
+					Hello Synt!
+				</h2>
+				<div class="box is-family-code has-background-black-ter has-text-white" style="overflow-x: auto;">
+					<span class="alg">out</span>()<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"Hello Synt!"</span>
+				</div>
+			</div>
+			<div id="ex-99-bottles" class="section">
+				<h2 class="title has-text-white">
+					99 Bottles
+				</h2>
+				<div class="box is-family-code has-background-black-ter has-text-white" style="overflow-x: auto;">
+					<span class="loop">repeat</span>(<span class="num">100</span>, <span class="var">bottle-count</span>)<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="alg">out</span>()<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="var">bottle-count</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">" bottles of Apple Juice!"</span>
+				</div>
+			</div>
+			<div id="ex-talking-tom" class="section">
+				<h2 class="title has-text-white">
+					Talking Tom
+				</h2>
+				<div class="box is-family-code has-background-black-ter has-text-white" style="overflow-x: auto;">
+					<span class="loop">forever</span>()<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="alg">input</span>(<span class="var">answer</span>)<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"You: "</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="alg">out</span>()<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"Tom: "</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="var">answer</span><br>
+				</div>
+			</div>
+			<div class="section is-hidden-mobile"></div>
+		</div>
+	</section>
+
+	<section class="section is-hidden-desktop"></section>
+
+	<section class="section is-large" style="display: grid; place-items: center; height: 100%;">
+		<div class="content">
+			<h1 class="title has-text-centered">
+				Coming Soon...
+			</h1>
+			<p class="subtitle has-text-centered">
+				Development in progress, first preview in late April!
+			</p>
+
+			<div class="is-hidden" style="display: grid; place-items: center;">
+				<div class="timeline column is-half">
+					<header class="timeline-header">
+						<span class="tag is-medium is-primary">
+							Project Start
+						</span>
+					</header>
+					<div class="timeline-item"></div>
+					<header class="timeline-header">
+						<span class="tag is-primary">
+							v1
+						</span>
+					</header>
+					<div class="timeline-item">
+						<div class="timeline-marker"></div>
+						<div class="timeline-content">
+							<p class="heading">
+								April 2023, v1.0.0 [PREVIEW RELEASE]
+							</p>
+							<p class="content">
+								<ul>
+									<li>
+										Set up a new iteration system for Synt+, instead of legacy Synt.
+									</li>
+									<li>
+										New CLI, primitive but allows to run in file mode and interactive mode.
+									</li>
+									<li>
+										37 algorithms so far, allowing Commenting,
+										inputting and outputting data,
+										variable usage,
+										common mathematical operations,
+										looping and logic based programming.
+									</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+					<header class="timeline-header">
+						<span class="tag is-medium is-primary">
+							Coming Soon!
+						</span>
+					</header>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="columns">
+			<div class="column">
+				<div class="content">
+					<h3 class="title">
+						Community
+					</h3>
+					<p>
+						(Will be updated soon...)
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content">
+					<h3 class="title">
+						Support
+					</h3>
+					<p>
+						<a href="mailto:mail@synt.ml">
+							<i class="fa-solid fa-envelope fa-sm"></i>
+							<span class="ml-1">
+								Mail Us
+							</span>
+						</a>
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content">
+					<h3 class="title">
+						Links
+					</h3>
+					<p>
+						(Will be updated soon...)
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content">
+					<h3 class="title">
+						Info
+					</h3>
+					<p>
+						Licensed under <strong>MIT License (c) 2023 - SyntLang Organization</strong>,
+						founded by <a href="https://attaditya.is-a.dev/">Attachment Aditya</a>,
+						<a href="https://attachment-studios.tk/">Attachment Studios</a>.
+					</p>
+
+					<p>
+						This page made by <a href="https://attaditya.is-a.dev/">Attachment Aditya</a>,
+						styled with Bulma CSS.<br>
+						<a href="https://bulma.io">
+							<img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
 </html>
